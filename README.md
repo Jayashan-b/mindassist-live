@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MindAssist: Sri Lanka's First Tri-Lingual Mental Health Ecosystem 🇱🇰
 
-## Getting Started
+![MindAssist Banner](public/assets/app-mockup.png)
 
-First, run the development server:
+## 🚨 The Crisis
+In Sri Lanka, **22 million people** are served by only a handful of psychiatrists. Cultural stigma, language barriers, and a lack of accessible resources have created a silent epidemic. Existing apps are often English-only and Western-centric, failing to connect with the local context.
+
+## 💡 The Solution
+**MindAssist** is a clinically-grounded, culturally-adapted mental health platform designed specifically for the Sri Lankan demographic. It bridges the gap between professional care and the general public through accessible technology.
+
+### 🌟 Key Features
+* **Tri-Lingual NLP:** Fully functional support in **English, Sinhala, and Tamil**.
+* **Clinical Screening:** Integrated **PHQ-9 (Depression)** and **GAD-7 (Anxiety)** assessments to provide accurate initial screening.
+* **SOS Protocol:** One-tap connection to the **1926 National Mental Health Helpline** with location-based hospital mapping.
+* **Modified CBT:** Cognitive Behavioral Therapy exercises adapted for Sri Lankan societal norms.
+* **Privacy First:** Anonymous peer support and strictly local data handling.
+
+## 🛠️ Tech Stack
+Built with the latest modern web technologies for performance and scale.
+
+* **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Deployment:** Google Firebase Hosting (Static Export)
+
+## 🚀 Getting Started
+
+First, clone the repository:
+
+```bash
+git clone [https://github.com/Jayashan-b/mindassist-live.git](https://github.com/Jayashan-b/mindassist-live.git)
+cd mindassist-live
+
+```
+
+Install dependencies:
+
+```bash
+npm install
+
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎓 Research & Academic Context
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was developed as part of a research initiative at the **Informatics Institute of Technology (IIT)** in collaboration with the **University of Westminster**.
 
-## Learn More
+**Research Team:**
 
-To learn more about Next.js, take a look at the following resources:
+* **Jayashan Bandara**
+* Maneesha Rupasinghe
+* Vidunadi Perera
+* Thimisha Samarasinghe
+* Isuri Apsara
+* Kasuni Kavindi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Foundational Advisor:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Dr. Ravimal Galappaththi** (Consultant Psychiatrist)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*© 2025 MindAssist Research Group. All Rights Reserved.*
